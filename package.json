@@ -1,0 +1,24 @@
+{
+  "name": "local-express-server",
+  "version": "1.0.0",
+  "description": "Runs a simple web server, serving static pages from the local filesystem",
+  "keywords": [
+    "local",
+    "express",
+    "server",
+    "web",
+    "static",
+    "pages"
+  ],
+  "license": "MIT",
+  "author": "Ian Brown",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "yargs": "^17.7.2"
+  }
+}
