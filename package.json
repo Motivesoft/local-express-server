@@ -1,6 +1,6 @@
 {
   "name": "local-express-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runs a simple web server, serving static pages from the local filesystem",
   "keywords": [
     "local",
