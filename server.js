@@ -53,8 +53,8 @@ app.post('/log', (req, res) => {
     }
 });
 
-// Start the server
-app.listen(PORT).on('listening', () => {
+// Start the server. Using 0.0.0.0 here forces ip4
+app.listen(PORT, '0.0.0.0').on('listening', () => {
     console.log(`Server running on http://localhost:${PORT}`);
     console.log(`Serving static files from: ${STATIC_DIR}`);
 }).on('error', (error) => {
